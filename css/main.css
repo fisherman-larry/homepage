@@ -1,0 +1,32 @@
+.main {
+    text-align: center;
+    margin: auto;
+}
+
+.main__header {
+    color: rgb(140, 224, 91);
+}
+
+.main__name {
+    color: rgb(207, 147, 36);
+}
+
+.main__image {
+    border-radius: 300px;
+    width: 300px;
+    height: 300px;
+    border: groove rgb(207, 147, 36);
+
+}
+
+.main__button {
+    background-color: rgb(207, 147, 36);
+    border: solid rgb(207, 147, 36);
+    border-radius: 20px;
+}
+
+.main__button:hover {
+    cursor: pointer;
+    background-color: rgba(252, 218, 156, 0.836);
+    border: solid rgba(252, 218, 156, 0.836);
+}

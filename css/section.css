@@ -1,0 +1,11 @@
+.section__header {
+    color: rgb(140, 224, 91);
+}
+
+.section__paragraph {
+    color: honeydew;
+}
+
+.section__paragraph--orange {
+    color: orange;
+}

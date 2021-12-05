@@ -1,11 +1,18 @@
-console.log("Cześć!");
+{
+    function welcome() {
+        console.log("Welcome on my homepage!")
+    }
 
-let ukryj = document.querySelector(".przycisk1");
-let obraz = document.querySelector(".obraz");
+    const imageRemove = () => {
+        const image = document.querySelector(".js-image");
+        image.remove();
+    };
 
+    const init = () => {
+        const hide = document.querySelector(".js-button");
 
-ukryj.addEventListener("click", () => {
-    obraz.remove();
-});
-
-
+        hide.addEventListener("click", imageRemove);
+        welcome();
+    }
+    init();
+}
